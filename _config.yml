@@ -1,7 +1,8 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  About: /about/
+  Archives: /archives/
 rss: /atom.xml
 
 # Content
@@ -9,5 +10,5 @@ excerpt_link: Read More
 fancybox: true
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-47671402-1
 favicon: /favicon.png
