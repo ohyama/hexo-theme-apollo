@@ -13,6 +13,14 @@
 	<%- partial('post/gallery') %>
 	<header class="entry-header">
 		<%- partial('post/title', {class_name: 'article-title'}) %>
+		<ul class="social-buttons">
+			<li>
+				<div class="fb-like" data-href="<%- config.root %><%- post.path %>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+			</li>
+			<li>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="<%- config.root %><%- post.path %>" data-text="<%- post.title %> | <%- config.title %>" data-via="Ohyama_" lang="ja">ツイート</a>
+			</li>
+		</ul>
 	</header>
 	<div class="entry-content">
 		<% if (post.excerpt && index){ %>
